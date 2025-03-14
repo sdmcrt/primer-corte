@@ -1,0 +1,73 @@
+h1{
+  color: red;
+  font-size: 50px;
+  font-family: helvetica;
+  font-style: bold;
+  text-align: center;
+}
+body{
+  background-color: pink;
+  margin-top: 50px;
+  font-size: 20px;
+}
+h2{
+  color: purple;
+  font-size: 25px;
+}
+h3{
+  color: orange;
+  font-size: 20px;
+}
+h4{
+  color: yellow;
+}
+p{
+  color: brown;
+}
+ul{
+  color: brown;
+}
+ol{
+  color: brown;
+}
+figcaption{
+  color: red;
+}
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: purple;
+  position: relative;
+  top: 100%;
+  animation-name: color;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes color{
+  0%{
+    background-color: yellow;
+    position: relative;
+    left: 0px;
+  }
+  25%{
+    background-color: orange;
+    position: relative;
+    left: 100px;
+  }
+  50%{
+    background-color: magenta;
+    position: relative;
+    left: 200px;
+  }
+  75%{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+  }
+  100%{
+    background-color: purple;
+    position: relative;
+    left: 0px;
+  }
+}
